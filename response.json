@@ -1,0 +1,39 @@
+{
+  "model": "dm-0.1.0",
+  "answers": {
+    "department": {
+      "type": "choice",
+      "choice": "billing",
+      "probabilities": {
+        "billing": 0.8891,
+        "sales": 0.0596,
+        "other": 0.0498,
+        "technical": 0.0015
+      },
+      "confidence": 0.8891
+    },
+    "frustration": {
+      "type": "score",
+      "score": 0.977,
+      "confidence": 0.5903,
+      "probabilities": {
+        "0": 0.2164,
+        "1": 0.5903,
+        "2": 0.1934
+      },
+      "legend": {
+        "0": "Спокійний, нейтральний тон",
+        "1": "Помірне невдоволення",
+        "2": "Сильне роздратування або погрози піти"
+      }
+    },
+    "wants_refund": {
+      "type": "noul",
+      "noul": 0.8797
+    }
+  },
+  "usage": {
+    "input_tokens": 651,
+    "output_tokens": 0
+  }
+}

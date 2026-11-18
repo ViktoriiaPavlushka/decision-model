@@ -1,0 +1,13 @@
+torch>=2.4
+transformers>=4.45
+datasets>=3.0
+scikit-learn>=1.5
+numpy
+joblib
+fastapi
+uvicorn
+streamlit>=1.40
+matplotlib
+python-docx
+sentencepiece
+protobuf
